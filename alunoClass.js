@@ -12,6 +12,20 @@ class Aluno {
         }
         return soma / this.notas.length;
     }
+    statsodtv(){
+        const media = this.calMad();
+
+        if (media >= 7){
+            return "Aprovado"
+        }
+        else if (media >= 5 && media < 7){
+            return "Recuperação"
+        }
+        else{
+            return "Reprovado"
+        }
+
+    }
 }
 
 let Aluno1 = new Aluno("Dr.Rick", 5050, [2.4, 10.0, 5.7]);

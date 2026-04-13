@@ -34,7 +34,7 @@ class Moto extends Automovel{
 
 let moto1 = new Moto("suzuki", "GSX-8R", 2027, 776)
 console.log(moto1.expitDeltEl)
-let carro1 = new Carro("Lincon", "Mark Mark III", 1958, )
+let carro1 = new Carro("Lincon", "Mark III", 1958, )
 
 
 
